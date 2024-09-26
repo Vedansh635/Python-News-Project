@@ -5,7 +5,7 @@ import requests , json
 newstopic = input('What type of news you want to see? ')
 
 # Construct the url to fetch the news from the API , Note: If program not working try changing the date to current date in API Key or change the API key from `NewsAPI.org`
-url = f'https://newsapi.org/v2/everything?q={newstopic}=2024-08-26&sortBy=publishedAt&apiKey=e4e94f481f19476db4224a4a633faa14'
+url = f'https://newsapi.org/v2/everything?q={newstopic}=2024-09-26&sortBy=publishedAt&apiKey=e4e94f481f19476db4224a4a633faa14'
 
 # Send a GET request to the API and get the response
 response = requests.get(url)
