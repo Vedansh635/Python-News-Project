@@ -29,3 +29,4 @@ for article in news['articles']:
     print(article['description'] , end='\n\n')
     # Increment the counter
     count+=1
+# NOTE: All code is written by me , except comments .
